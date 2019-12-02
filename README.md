@@ -18,7 +18,7 @@ public class CustomTask {
 }
 
 ```
-2. 方式二
+2. 方式二: 通过实现 SchedulingConfigurer 接口完成动态定时任务
 ```java
 @Configuration
 @EnableScheduling
